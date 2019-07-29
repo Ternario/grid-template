@@ -24,22 +24,23 @@
         content: "";
         background-color: rgba($color-light, 0.1);
     }
+
+    a {
+        display: block;
+        padding: $gap / 2;
+        transition: color 0.5s;
+    
+        &:hover,
+        &:focus {
+            color: $color-accent;
+        }
+    
+        .fab {
+            font-size: 40px;
+        }
+    }
 }
 
-a {
-    display: block;
-    padding: $gap / 2;
-    transition: color 0.5s;
-
-    &:hover,
-    &:focus {
-        color: $color-accent;
-    }
-
-    .fab {
-        font-size: 40px;
-    }
-}
 
 .footer__copy {
     span {

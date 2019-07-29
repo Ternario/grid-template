@@ -41,6 +41,10 @@
       padding-top: $gap * 3;
       padding-bottom: $gap * 3;
     }
+
+    h2 {
+      margin-top: 0;
+    }
   }
 
   %btn-min-size {

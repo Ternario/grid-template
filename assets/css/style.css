@@ -488,6 +488,10 @@ template {
   background-color: #d66926;
 }
 
+.about h2, .posts h2 {
+  margin-top: 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1099,7 +1103,7 @@ input:focus {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-a {
+.footer__social a {
   display: block;
   padding: 10px;
   -webkit-transition: color 0.5s;
@@ -1107,11 +1111,11 @@ a {
   transition: color 0.5s;
 }
 
-a:hover, a:focus {
+.footer__social a:hover, .footer__social a:focus {
   color: #d66926;
 }
 
-a .fab {
+.footer__social a .fab {
   font-size: 40px;
 }
 
